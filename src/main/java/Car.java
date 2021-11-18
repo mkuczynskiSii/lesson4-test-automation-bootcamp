@@ -23,8 +23,12 @@ public class Car {
                 .filter(car -> car.isAutomaticGear)
                 .map(car -> car.market.getCountries())
                 .forEach(countries -> {
-                    for (Country country : countries) {
-                        System.out.println(country.toString());
+                    if (countries == null){
+                        System.out.println("There is no country for such cars");
+                    } else{
+                        for (Country country : countries) {
+                            System.out.println(country.toString());
+                        }
                     }
                 });
     }
