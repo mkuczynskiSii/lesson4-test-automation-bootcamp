@@ -1,3 +1,4 @@
+import enums.Segment;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

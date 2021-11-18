@@ -1,3 +1,4 @@
+import enums.MarketName;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

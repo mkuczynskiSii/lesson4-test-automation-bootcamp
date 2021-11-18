@@ -1,3 +1,6 @@
+import enums.MarketName;
+import enums.Segment;
+
 import java.util.ArrayList;
 import java.util.List;
 
